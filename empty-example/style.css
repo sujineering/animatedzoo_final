@@ -1,0 +1,33 @@
+
+
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background: url(images/zoo\ background_small.png) center no-repeat;
+}
+
+#background {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#animals {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    cursor: pointer;
+}
+
+
+.animal {
+    margin-right: 100px;
+}
+
+h1{color: white; text-align: center;padding-top: 60px;}
+h2{text-align: center;color: black;}
